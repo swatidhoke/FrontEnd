@@ -1,13 +1,86 @@
-<style>
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #bd1c42;
-    <!-- background-image: url('profilepic.jpg'); -->
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-</style>
+
+        /* Internal styles for basic improvements */
+        body {
+            background-color: goldenrod;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+    
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 2em;
+            box-shadow: 0 4px 2px -2px gray;
+        }
+    
+        main {
+            padding: 20px;
+        }
+    
+        .profile-card {
+            background-color: peachpuff;
+            border-radius: 10px;
+            padding: 200px;
+            max-width: 1000px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    
+        .profile-card h1 {
+            background-color: tomato;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+        }
+    
+        .profile-card p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+    
+        .profile-card a {
+            display: inline-block;
+            margin: 10px 10px 10px 0;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    
+        .profile-card a:hover {
+            background-color: #555;
+        }
+    
+        .profile-card img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    
+        iframe {
+            display: block;
+            margin: 20px auto;
+        }
+    
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+    
+        ul li {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+            margin: 5px;
+        }
+    
+ 
