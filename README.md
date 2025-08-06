@@ -1,2 +1,2 @@
 # FrontEnd
-HTML, CSS, JavaScript, and Angular
+HTML, CSS, JavaScript,Bootstrap and Angular
